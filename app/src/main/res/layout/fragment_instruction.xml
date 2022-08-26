@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Here,I am using ConstraintLayout to arrange the views on the screen easily
+without any complexity and benefit from the ability to design my UI with the
+drag and drop feature in the editor-->
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">

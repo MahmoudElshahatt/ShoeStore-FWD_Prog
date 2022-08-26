@@ -44,7 +44,14 @@
         tools:layout="@layout/fragment_list_shoes">
         <action
             android:id="@+id/action_ListShoeFragment_to_addShoeFragment"
-            app:destination="@id/addShoeFragment" />
+            app:destination="@id/addShoeFragment"
+            app:popUpTo="@id/ListShoeFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_ListShoeFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/addShoeFragment"
@@ -53,6 +60,7 @@
         tools:layout="@layout/fragment_add_shoe">
         <action
             android:id="@+id/action_addShoeFragment_to_ListShoeFragment"
-            app:destination="@id/ListShoeFragment" />
+            app:destination="@id/ListShoeFragment"
+            app:popUpTo="@id/ListShoeFragment" />
     </fragment>
 </navigation>

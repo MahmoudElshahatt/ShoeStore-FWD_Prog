@@ -1,4 +1,4 @@
-package com.udacity.shoestore
+package com.udacity.shoestore.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         val nav_controller = this.findNavController(R.id.nav_host_fragment)
         if (nav_controller.currentDestination?.id == R.id.addShoeFragment) {
             Toast.makeText(applicationContext, "Shoe is not saved !! ", Toast.LENGTH_SHORT).show()
+        } else if (nav_controller.currentDestination?.id == R.id.loginFragment) {
+            finish()
         }
         return NavigationUI.navigateUp(
             nav_controller,

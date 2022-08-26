@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Here,I am using ConstraintLayout to draw the LinearLayout with a ScrollView and FloatingActionButton
+,I used LinearLayout for listing the ViewModel data (shoes),
+it make it easy to align all the children in a single direction,
+I used ScrollView to make the list of shoes scrollable -->
+
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
