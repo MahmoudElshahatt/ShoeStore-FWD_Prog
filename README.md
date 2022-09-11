@@ -14,6 +14,6 @@ The Shoe Store is the 1st project in Udacity FWD program.
 * **Navigation Component**.
 * **ViewModel**.
 * **LiveData**.
-
+* **MVVM Arch**.
 
 
