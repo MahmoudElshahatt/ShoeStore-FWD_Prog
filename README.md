@@ -1,6 +1,7 @@
 # Description
 
-The Shoe Store is the 1st project in Udacity FWD program.
+The Shoe Store is the 1st project in Udacity FWD program.<br>
+</br>
 
 # Screenshots
 
