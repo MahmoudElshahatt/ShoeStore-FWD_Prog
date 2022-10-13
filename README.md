@@ -2,7 +2,10 @@
 
 The Shoe Store is the 1st project in Udacity FWD program.<br>
 </br>
-
+## Other Advanced Android track Projects
+- [Second project](https://github.com/MahmoudElshahatt/Asteroid-Radar-FWD_Proj)
+- [Third project](https://github.com/MahmoudElshahatt/FileLoader-FWD_proj)
+- [Fourth project](https://github.com/MahmoudElshahatt/Location-Reminders-FWD_Proj)
 # Screenshots
 
 <img src="https://user-images.githubusercontent.com/79477855/188980346-ec3b1488-bf4e-4a36-a86b-67db82eadd87.jpeg" width="350" height="700"> <img src="https://user-images.githubusercontent.com/79477855/188980523-d0c96d7b-7f82-4650-98ec-7c4c666cda9c.jpeg" width="350" height="700">
